@@ -39,6 +39,10 @@ function rgb(r, g, b) {
     return [r, g, b]
 }
 
+function rgba(r, g, b, a) {
+    return [r, g, b]
+}
+
 const blackLum = 0
 const black = '#000000';
 const whiteLum = 1

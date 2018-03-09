@@ -47,7 +47,7 @@ const blackLum = 0
 const black = '#000000';
 const whiteLum = 1
 const white = '#FFFFFF';
-var elements = document.querySelectorAll('input[type="password"], input[type="text"], input[type="email"], input[type="number"]')
+var elements = document.querySelectorAll('input[type="password"], input[type="text"], input[type="email"], input[type="number"], input:not([type]), textarea')
 for (i = 0; i < elements.length ; i++) {
    var bg = getComputedStyle(elements[i]).backgroundColor
    var fg = getComputedStyle(elements[i]).color
